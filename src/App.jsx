@@ -8,7 +8,7 @@ import AddFlower from './Components/AddTeacher';
 import Layout from './Components/Layout'; 
 
 
-import FlowerDetail from './Components/FlowerDetail'; // <- New import
+import FlowerDetail from './Components/FlowerDetail'; 
 
  export default function App() {
   const isAuthenticated = !!localStorage.getItem('token');
